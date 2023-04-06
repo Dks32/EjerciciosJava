@@ -11,6 +11,15 @@ import java.util.Scanner;
 
 public class r0104 {
 	public static void main(String args[]) {
-		// Codigo
+		short max =  32767;
+        short min = -32768;
+
+        System.out.print("max = " + max);
+        max++;
+        System.out.println(" + 1 = " + max);
+
+        System.out.print("min = " + min);
+        min--;
+        System.out.println(" - 1 = " + min);
 	}
 }
