@@ -9,6 +9,14 @@ import java.util.Scanner;
 
 public class r0107 {
 	public static void main(String args[]) {
-		// Codigo
+		Scanner scan = new Scanner(System.in);
+		float num;
+		int res;
+
+		System.out.print("Ingrese un número para redondear: ");
+		num = scan.nextFloat();
+
+		res = (int) (num + 0.5);
+		System.out.println("El número " + num + " fue redondeado a " + res);
 	}
 }
