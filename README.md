@@ -1,6 +1,6 @@
 # Ejercicios Java
 
-Ejercicios extraidos del libro "Aprende a programar con Java (Alfonoso Jiménez Marín - Francisco Manuel Pérez Montes) 2° Revisión"
+Ejercicios extraidos del libro "Aprende a programar con Java" (Alfonoso Jiménez Marín - Francisco Manuel Pérez Montes) 2° Revisión.
 
 ## Nomenclatura de archivos
 
