@@ -13,6 +13,18 @@ import java.util.Scanner;
 
 public class r0110 {
 	public static void main(String args[]) {
-		// Codigo
+        Scanner scan = new Scanner(System.in);
+        final float PI = 3.1416f;
+
+        float longitud, area, radio;
+
+        System.out.print("Radio de la circunferencia: ");
+        radio = scan.nextFloat();
+
+        area = PI * radio * radio;
+        longitud = 2 * PI * radio;
+
+        System.out.println("El área de la círculo es: " + area);
+        System.out.println("La longitud de la circunferencia es: " + longitud);
 	}
 }
