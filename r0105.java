@@ -9,6 +9,17 @@ import java.util.Scanner;
 
 public class r0105 {
 	public static void main(String args[]) {
-		// Codigo
+		Scanner scan = new Scanner(System.in);
+		int nota1, nota2;
+		float prom;
+
+		System.out.print("Ingrese la primera nota: ");
+		nota1 = scan.nextInt();
+		System.out.print("Ingrese la segunda nota: ");
+		nota2 = scan.nextInt();
+
+		prom = (float) ((nota1 + nota2) / 2.0);
+
+		System.out.println("El promedio es: " + prom);
 	}
 }
