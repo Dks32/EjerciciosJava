@@ -11,7 +11,7 @@ import java.util.Locale;
  */
 
 
-public class r0108 {
+public class r08 {
 	public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
         scan.useLocale(Locale.US);

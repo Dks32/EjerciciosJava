@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 
-public class r0104 {
+public class r04 {
 	public static void main(String args[]) {
 		short max =  32767;
         short min = -32768;

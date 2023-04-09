@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 
 
-public class r0110 {
+public class r10 {
 	public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
         final float PI = 3.1416f;

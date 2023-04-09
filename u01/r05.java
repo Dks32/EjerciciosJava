@@ -2,25 +2,23 @@ import java.util.Scanner;
 
 
 /*
- *  Modificar el ejercicio anterior para que muestre la parte entera de la media
- *  de tres notas decimales.
+ *  Necesitamos una aplicación que calcule la media aritmética de dos notas
+ *  enteras. Hay que tener en cuenta que la media puede contener decimales.
  */
 
 
-public class r0106 {
+public class r05 {
 	public static void main(String args[]) {
 		Scanner scan = new Scanner(System.in);
-		int nota1, nota2, nota3;
-		int prom;
+		int nota1, nota2;
+		float prom;
 
 		System.out.print("Ingrese la primera nota: ");
 		nota1 = scan.nextInt();
 		System.out.print("Ingrese la segunda nota: ");
 		nota2 = scan.nextInt();
-		System.out.print("Ingrese la tercera nota: ");
-		nota3 = scan.nextInt();
 
-		prom = ((nota1 + nota2 + nota3) / 3);
+		prom = (float) ((nota1 + nota2) / 2.0);
 
 		System.out.println("El promedio es: " + prom);
 	}

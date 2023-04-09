@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 
 
-public class r0101 {
+public class r01 {
 	public static void main(String args[]) {
 		int numero;
 		Scanner scan = new Scanner(System.in);

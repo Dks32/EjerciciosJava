@@ -7,7 +7,7 @@ import java.util.Locale;
  *  fijados y sea la aplicación quien los pida al usuario.
  */
 
-public class r0109 {
+public class r09 {
 	public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
         scan.useLocale(Locale.US);

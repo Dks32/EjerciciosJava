@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 
 
-public class r0102 {
+public class r02 {
 	public static void main(String args[]) {
 		int edad;
 		Scanner scan = new Scanner(System.in);
