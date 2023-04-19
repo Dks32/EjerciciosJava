@@ -25,10 +25,10 @@ public class r03 {
 
 			if (num > numSecreto) {
 				// Si el número elegido es mayor al secreto
-				System.out.println(" - Tu número es mayor al numero secreto");
+				System.out.println(" - Mayor");
 			} else if (num < numSecreto) {
 				// Si el número elegido es menor al secreto
-				System.out.println(" - Tu número es menor al número secreto");
+				System.out.println(" - Menor");
 			} else {
 				// Si el número elegido es igual al secreto
 				System.out.println(" - Adivinaste");
