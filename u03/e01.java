@@ -18,11 +18,17 @@ public class e01 {
 		System.out.print("Ingrese un número de 3 dígitos: ");
 		num = scan.nextInt();
 
-		aux = num;
-		for (int i=1; i<=3; i++) {
-			gua = (aux % 10);
-			aux = (int) (aux / 10);
-			System.out.println(gua);
+		// aux = num;
+		for (int i=2; i>=0; i--) {
+			// Este codigo devuelve los numeros en orden inverso al solicitado
+			// gua = (aux % 10);
+			// aux = (int) (aux / 10);
+			// System.out.println(gua);
+
+			// Codigo corregido para que devuelva el orden correcto
+			aux = num / ((int) Math.pow(10, i));
+			num = num % ((int) Math.pow(10, i));
+			System.out.println(aux);
 		}
 	}
 }
