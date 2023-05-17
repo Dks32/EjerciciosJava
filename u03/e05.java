@@ -26,9 +26,9 @@ public class e05 {
 
 		System.out.println("Triangulo de Pascal");
 		System.out.print("Filas del tirangulo:");
-		nf = scan.nextInt() - 1;
+		nf = scan.nextInt();
 
-		for (int n=0; n<=nf; n++) { // Ciclo para las columnas
+		for (int n=0; n<nf; n++) { // Ciclo para las Filas
 			for (int m=0; m<=n; m++) { // Ciclo para las columnas
 
 				// Calculalr valor n!
