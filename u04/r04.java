@@ -18,11 +18,12 @@ public class r04 {
 		System.out.print("Ingrese numero 2: ");
 		n2 = scan.nextInt();
 
+		// Mostrar el resultado de la llamada a funcion maximo(n1, n2)
 		System.out.println("El mayor es: " + maximo(n1, n2));
 	}
 
 
 	static int maximo(int n1, int n2) {
-		return(n1 > n2 ? n1 : n2);
+		return(n1 > n2 ? n1 : n2); // Si n1 > n2 devuelve n1: sino devuelve n2
 	}
 }
