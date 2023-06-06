@@ -12,6 +12,6 @@ Donde:
 
 * `<unidad>` representa el número de unidad del libro, y consta de dos dígitos.
 
-* `<tipo>` representa el tipo de archivo. Se utiliza "e" para los ejercicios del libro y "r" para los ejemplos rehechos del mismo libro.
+* `<tipo>` representa el tipo de archivo. Se utiliza "e" para los ejercicios del libro y "r" para los ejecicios de ejemplo del mismo libro.
 
 * `<número>` representa el número de ejercicio dentro de la unidad correspondiente, y consta de dos dígitos.
