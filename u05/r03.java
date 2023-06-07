@@ -43,10 +43,11 @@ public class r03 {
 			}
 		}
 
+		// Calcular medias de positivos y negativos evitando divisiones por 0
 		mpos = (cpos == 0) ? 0: mpos / cpos;
 		mneg = (cneg == 0) ? 0: mneg / cneg;
 
-		// Mostramos por pantalla el resultado de las medias y sumas
+		// Mostrar por pantalla el resultado de las medias y sumas
 		System.out.println("Ceros = " + cceros);
 		System.out.println("Media Positivos = " + mpos);
 		System.out.println("Media Negativos = " + mneg);
