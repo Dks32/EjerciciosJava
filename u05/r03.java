@@ -11,27 +11,44 @@ import java.util.Scanner;
 public class r03 {
 	public static void main(String args[]) {
 		Scanner scan = new Scanner(System.in);
-		int n, ni, cceros = 0, mpos = 0, mneg = 0;
+		int n, // cantidad de números
+			ni, // valor de números ingresados
+			cceros = 0, // cantidad de ceros
+			cpos = 0, // cantidad de positivos
+			cneg = 0; // cantidad de negativos
+		float mpos = 0, // suma y luego media de positivos
+			  mneg = 0; // suma y luego media de negativos
 
 		System.out.print("Cuantos números?: ");
 		n = scan.nextInt();
 
-		// ciclo para introducir n números
+		// Ciclo para introducir n números. Las medias y cantidad de ceros
+		// se calcularán aquí también.
 		for (int i=0; i<n; i++) {
 			System.out.print("[" + (i + 1) + "] Ingrese un número: ");
 			ni = scan.nextInt();
 
+			// Si el número es 0
 			cceros += ni == 0 ? 1: 0;
+
+			// Si el número es positivo
 			if (ni > 0) {
-				mpos = mpos == 0 ? ni : (mpos + ni) / 2;
+				cpos++; // cantidad de positivos + 1
+				mpos += ni; // agregamos el numero a la suma de positivos
+
+			// Si el número es negativo
 			} else if (ni < 0) {
-				mneg = mneg == 0 ? ni : (mneg + ni) / 2;
+				cneg++;
+				mneg += ni;
 			}
 		}
 
+		mpos /= cpos;
+		mneg /= cneg;
+
+		// Mostramos por pantalla el resultado de las medias y sumas
 		System.out.println("Ceros = " + cceros);
 		System.out.println("Media Positivos = " + mpos);
 		System.out.println("Media Negativos = " + mneg);
-
 	}
 }
