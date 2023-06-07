@@ -43,8 +43,8 @@ public class r03 {
 			}
 		}
 
-		mpos /= cpos;
-		mneg /= cneg;
+		mpos = (cpos == 0) ? 0: mpos / cpos;
+		mneg = (cneg == 0) ? 0: mneg / cneg;
 
 		// Mostramos por pantalla el resultado de las medias y sumas
 		System.out.println("Ceros = " + cceros);
